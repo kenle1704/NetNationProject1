@@ -1,4 +1,3 @@
-package com.netNation;
 import java.util.*;
 import java.io.*;
 import com.google.gson.Gson;
@@ -11,11 +10,11 @@ import java.util.logging.XMLFormatter;
 
 import java.sql.*;
 public class Partner_Report_Importer {
-	private static final String logPath="/var/log/Partner_Report_Importer.log";
+	private static final String logPath="log/Partner_Report_Importer.log";
 	private static final String className="Partner_Report_Importer";
 	private static final String ignorePartnerIDs="26392"; // comma delimited for ignore list 
-	private static final String csvFilePath ="./Sample_Report.csv";
-	private static final String jsonFilePath ="./typemap.json";
+	private static final String csvFilePath ="resource/Sample_Report.csv";
+	private static final String jsonFilePath ="resource/typemap.json";
 	public static void main(String[] args) {
 	    //assume that first args is input file name 
 	    //second args is input map 
