@@ -12,3 +12,5 @@ you will find the output data in output.txt
 
 
 My database is a little bit different with requirement because i could not create usage column in chargeable table that i decide to use my own name convension 
+
+Make sure your domains table will have domain column is unique 
